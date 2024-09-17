@@ -1,0 +1,17 @@
+{
+  "name": "css-breakpoints",
+  "version": "1.0.0",
+  "description": "A package that adds css breakpoints code to your css files",
+  "main": "index.js",
+  "bin": {
+    "css-breakpoints": "./bin/injector.js"
+  },
+  "scripts": {
+    "inject": "node ./bin/injector.js"
+  },
+  "author": "Harsh Mali",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.6"
+  }
+}
